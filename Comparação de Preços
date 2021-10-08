@@ -1,0 +1,18 @@
+do {
+  var alcool = parseFloat(prompt("Digite o preço do álcool:"));
+  var gasolina = parseFloat(prompt("Digite o preço da gasolina:"));
+  var divisao = alcool/gasolina;
+
+  if (divisao > 0.7){
+    alert("Vale a pena a gasolina");
+} else if (divisao < 0.7){
+    alert("Vale a pena o álcool");
+} else {
+    alert("Tanto faz abastecer com álcool ou gasolina");
+}
+  var resp = prompt ("Você deseja continuar? s ou n");
+    console.clear (); 
+} 
+
+while (resp == "s");
+  alert ("Obrigada, volte sempre")
