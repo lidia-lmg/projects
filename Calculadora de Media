@@ -1,0 +1,25 @@
+do{
+function media (N1,N2,N3){
+var m = ((N1 + N2 + N3)/3);
+return m;
+}
+function num (){
+  var N = parseFloat (prompt("Número"));
+  return N;
+}
+function imprimir (total){
+  alert (total)
+}
+var opc 
+  opc = prompt("Digite o numero 1 para fazer a média")
+
+if (opc==1){
+var MEDIA = "O resultado é:" +media (num(), num(), num())
+imprimir (MEDIA)
+}
+
+var resp = prompt ("Deseja fazer novo calculo? [s/n]");
+console.clear ()
+}
+while (resp == "s");
+  alert ("Até a proxima")
